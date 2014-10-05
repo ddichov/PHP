@@ -1,0 +1,231 @@
+body {
+    margin:0;
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    color: #444444;
+    color: #d6974a;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 16px 0 0 0;
+    color: #bc30b4;
+}
+
+label{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+a {
+    /*color: #0E09EE;*/
+    color: lightgreen;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clearfix{
+    zoom: 1;
+}
+.clearfix:before,.clearfix:after{
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    overflow: hidden; 
+}
+.clearfix:after{
+    clear: both;
+}
+
+.nav-wrapper{
+
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: #eeeeee;
+    color: #444444;
+    vertical-align: bottom;
+}
+
+.logo {
+    float: left;
+    margin: 0px 20px;
+    padding: 0px 5px;
+    font-size: 1.6em;
+    text-align: left;
+}
+
+header{
+    position: fixed;
+    background-color: azure;
+    width: 100%;
+    z-index: 10;
+}
+.row{
+    height: 36px;
+}
+    .row a{
+
+        display: inline-block;
+        float: right;
+        margin-top: 1px;
+        padding: 10px 10px;
+        text-align:center;
+        color: #aaa;
+    }
+    .row a:hover{
+        color: blue;
+    }
+
+.hello {
+    float: right;
+    line-height: 2.4em;
+    margin: 0px 20px;
+}
+
+.nav {
+    /*max-width: 100%;*/
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+    list-style-type: none;
+
+    position: fixed;
+    background-color: #eeeeee;
+/*    z-index: 10;*/
+}
+
+.nav li{
+    display: inline-block;
+    width: 120px;
+    padding: 2px 5px;
+    margin-top: 3px;
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    text-align:center;
+    background-color: #dddddd;
+    outline-width: 2px;
+    outline-color: #777;
+    outline-offset: 2px;
+    outline-style: solid;
+}
+
+.nav li:hover, .nav li.active{
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #bbbbbb;
+    border-top: 2px solid #bbbbbb;
+    background-color: #cccccc;
+}
+
+.nav li:hover a, .nav li.active a{
+    color: black;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #d6974a;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.wrapper {
+    position: relative;
+    height: 1800px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.wrap1{
+    position: relative;
+    height: 1000px;
+}
+
+.content {
+    background-image: url(http://localfoodatlax.com/images/plane.png);
+    background-position-x: 15%;
+    background-position-y: 250px;
+    background-size: 10%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-repeat: no-repeat;
+
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+
+    padding-top: 60px;
+    margin: 0;
+    height: 1700px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.wrap_footer{
+    position: relative;
+    height: 420px;
+}
+
+.footer{
+    background-color: silver;
+    padding-top: 50px;
+    margin: 0;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.parallax.sky{
+    background: url('blue_sky_and_green_grass.jpg') 50% 0px no-repeat fixed;
+    /*    background-size: 100%;*/
+    /*background-size: cover;*/
+    background-size: 100% 1800px;
+    margin: 0;
+    height: 1800px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.parallax.money {
+    background: url('money_in_the_sky.jpg') 100% 0px no-repeat fixed;
+    background-size: 100%;
+    margin: 0;
+    height: 1300px;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    z-index: -1;
+}
+.parallax.dove{
+    background-image: url(http://www.hvcsfamsurg.com/images/dove.png);
+    background-position-x: 80%;
+    background-position-y: 400px;
+    background-repeat: no-repeat;
+    background-size: 15%;
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 1400px;
+    width: 100%;
+    z-index: -1;
+}

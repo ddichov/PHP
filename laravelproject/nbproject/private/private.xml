@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/laravelproject/app/models/Auction_price.php</file>
+            <file>file:/var/www/laravelproject/app/models/Comment.php</file>
+            <file>file:/var/www/laravelproject/app/views/bet_auction.blade.php</file>
+            <file>file:/var/www/laravelproject/app/views/add_auction.blade.php</file>
+            <file>file:/var/www/laravelproject/app/controllers/AuctionController.php</file>
+            <file>file:/var/www/laravelproject/app/views/auctions.blade.php</file>
+            <file>file:/var/www/laravelproject/app/routes.php</file>
+            <file>file:/var/www/laravelproject/app/views/auction_bets.blade.php</file>
+            <file>file:/var/www/laravelproject/app/database/seeds/UserTableSeeder.php</file>
+            <file>file:/var/www/laravelproject/app/models/Vote.php</file>
+            <file>file:/var/www/laravelproject/app/models/User.php</file>
+            <file>file:/var/www/laravelproject/public/static/style.css</file>
+            <file>file:/var/www/laravelproject/app/database/migrations/2014_04_23_080253_create_auction_prices_table.php</file>
+            <file>file:/var/www/laravelproject/app/models/Auction.php</file>
+            <file>file:/var/www/laravelproject/app/database/migrations/2014_06_02_120056_create_comments_table.php</file>
+            <file>file:/var/www/laravelproject/app/models/Category.php</file>
+        </group>
+    </open-files>
+</project-private>
