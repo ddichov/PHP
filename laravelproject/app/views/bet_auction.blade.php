@@ -6,7 +6,7 @@
 
 <h3>Title: <strong>{{ $data->auction_title }} </strong></h3>
 <p> min. price: <strong>{{ $data->minimum_price }}</strong> </p>
-<p> end date: <strong>{{ $data->date_end }}</strong> </p>
+<p> end date: <strong>{{ date('Y-m-d', $data->date_end) }}</strong> </p>
 <p> description: <strong>{{ $data->auction_desc }}</strong> </p>
 
 <div>
